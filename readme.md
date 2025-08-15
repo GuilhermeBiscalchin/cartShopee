@@ -1,16 +1,13 @@
-## Objetivo
 
-Criar um carrinho de compras baseado no carrinho de compras da shopee, aonde o carrinho armazene itens e faça o cálculo de sub-itens automaticamente
+# Carrinho da Shopee em Node.js
 
+Projeto do curso Formação Node.js Fundamentals da DIO,
+onde foi feito a lógica do carrinho de compras da Shopee.
 
-// Dominio da Aplicação: carrinho de compras
+- Dominio da Aplicação: carrinho de compras
 
-// As entidades representadas
-// -> Carrinho
-// -> Itens
+Feito em modulos o carrinho e os itens, e as funções de soma, exclusão, remoção de item e 
 
-Alterações 
+- Alterações 
 
-- Exibir Lista de Desejos,
-
-- Com Valor SubTotal por item
+Exibição de Lista de Desejos, no carrinho e uma função para executar essa operação.
