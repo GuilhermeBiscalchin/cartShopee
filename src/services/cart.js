@@ -14,6 +14,15 @@ async function deleteItem(userCart, name) {
   }
 }
 
+//Função para mostrar a lista de desejo.
+
+async function displayWhish(userCart) {
+  console.log("\n Shopee Lista de Desejos!");
+  userCart.forEach((item, index) => {
+    console.log(`${index + 1}. ${item.name} - R$ ${item.price} `);
+  });
+}
+
 async function displayCart(userCart) {
   console.log(" \nShopee Carrinho Lista");
   userCart.forEach((item, index) => {
@@ -63,4 +72,4 @@ async function calculateTotal(userCart) {
   console.log(`Total: ${result} `);
 }
 
-export { addItem, calculateTotal, deleteItem, removeItem, displayCart };
+export { addItem, calculateTotal, deleteItem, removeItem, displayCart , displayWhish};

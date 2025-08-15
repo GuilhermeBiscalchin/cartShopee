@@ -8,3 +8,9 @@ Criar um carrinho de compras baseado no carrinho de compras da shopee, aonde o c
 // As entidades representadas
 // -> Carrinho
 // -> Itens
+
+Alterações 
+
+- Exibir Lista de Desejos,
+
+- Com Valor SubTotal por item
